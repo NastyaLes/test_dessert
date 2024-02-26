@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Десерты</title>
+</head>
+<body style="background-image:url('Фон.jpg')">
+<header>
+    <h1>Десерты</h1>
+    <mark>Десерт - завершающее блюдо стола, предназначенное для получения приятных вкусовых ощущений в конце обеда или ужина, обычно — сладкие деликатесы.</mark>
+    <figure>
+        <img src="Десерт.jpg" alt="Десерт" style="width:512px;height:342px;" align="right" vspace="5">
+    </figure>
+    <nav>
+        <h2>В качестве десертов могут подаваться</h2>
+        <ul type="circle">
+            <li>кондитерские изделия:
+                <ol type="1">
+                    <li><a href="#1">торты</a></li>
+                    <li><a href="#2">печенья</a></li>
+                    <li><a href="#3">вафли</a></li>
+                    <li><a href="#4">кексы</a></li>
+                    <li><a href="#5">пироги</a></li>
+                </ol>
+            </li>
+            <li>конфеты и блюда из <a href="#6">взбитых сливок</a></li>
+            <li>мороженое и <a href="#7">десерты из мороженого</a></li>
+            <li><a href="#8">фруктовые салаты</a></li>
+            <li><a href="#9">муссы</a></li>
+            <li><a href="#10">кремы</a></li>
+            <li><a href="#11">желе</a></li>
+            <li><a href="#12">конфитюр</a></li>
+            <li><a href="#13">пюре</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Определения</h2>
+        <dl>
+            <dt><a id="1">торт</a></dt>
+            <dd>кондитерское изделие, состоящее из нескольких коржей, пропитанных кремом или джемом. Сверху обычно украшают кремом, глазурью или фруктами.</dd>
+            <dt><a id="2">печенье</a></dt>
+            <dd>небольшие мучные кондитерские изделия различной формы и пониженной влажности. Выпекается из различных видов теста.</dd>
+            <dt><a id="3">вафля</a></dt>
+            <dd>разновидность тонкого сухого печенья с оттиском на поверхности. Выпекается из взбитого жидкого теста в специальных формах.</dd>
+            <dt><a id="4">кекс</a></dt>
+            <dd>кондитерское изделие, выпекаемое из масляного бисквитного или дрожжевого теста.</dd>
+            <dt><a id="5">пирог</a></dt>
+            <dd>хлебобулочное изделие из теста с начинкой, которое выпекается или жарится.</dd>
+            <dt><a id="6">взбитые сливки</a></dt>
+            <dd>десерт, представляющий собой подслащённые взбитые сливки, иногда с добавлением ванили или другого ароматизатора.</dd>
+            <dt><a id="7">десерты из мороженого</a></dt>
+            <dd>холодные десерты, для приготовления которых можно использовать любое мороженое и другие ингредиенты, как для придания дополнительных вкусовых качеств, так и для украшения.</dd>
+            <dt><a id="8">фруктовый салат</a></dt>
+            <dd>салат из смеси различных свежих фруктов, порезанных небольшими кусочками.</dd>
+            <dt><a id="9">мусс</a></dt>
+            <dd>блюдо, приготовленного из ароматического основания, пищевых веществ, способствующих образованию и фиксации пенистого состояния мусса, а также пищевых веществ, придающих блюду сладкий вкус или усиливающих его.</dd>
+            <dt><a id="10">крем</a></dt>
+            <dd>отделочный полуфабрикат кондитерского производства, используется как для украшения поверхности изделий, так и для прослаивания и обмазывания коржей и заполнения полостей выпеченных полуфабрикатов.</dd>
+            <dt><a id="11">желе</a></dt>
+            <dd>гелеобразователь, при этом, остывая, вся масса получает студенистый вид.</dd>
+            <dt><a id="12">конфитюр</a></dt>
+            <dd>фруктово-ягодные кондитерские изделия, разновидности концентрированных фруктовых (плодово-ягодных) консервов, наряду с вареньем и повидлом.</dd>
+            <dt><a id="13">пюре</a></dt>
+            <dd>однородно и равномерно протёртая мякоть плодов и ягод, обычно производится из одного вида плодов или ягод в самом широком ассортименте.</dd>
+        </dl>
+    </section>
+    <section>
+        <h3><a href="https://akniga.org/suhova-dulskaya-anna-konditerskaya-glazur">Сухова-Дульская Анна - Волшебная кондитерская глазурь</a></h3>
+        <h3>Постер</h3>
+        <picture>
+            <img src="Волшебная_кондитерская_глазурь.jpg" alt="вкг_постер" style="width:auto;height:auto">
+        </picture>
+        <h3>Видео-версия</h3>
+        <video width="640" height="360" controls>
+            <source src="Аудиокнига_Сухова-Дульская_Анна-_Кондитерская_глазурь.mp4" type="video/mp4">
+        </video>
+        <h3>Аудио-версия</h3>
+        <audio controls>
+            <source src="Волшебная_кондитерская_глазурь.mp3" type="audio/mp3">
+        </audio>
+    </section>
+    <form name="form">
+        <h3>Заполняй анкету и участвуй в розыгрыше сладких призов</h3>
+        <fieldset>
+        <legend>Контактная информация</legend>
+            <p><label for="name">Ваше имя<em>*</em></label><input type="text" required pattern="(^[A-Za-z]+$)|(^[А-ЯЁа-яё]+$)" id="name" size="30"></p>
+            <p><label for="data">Дата рождения<em>*</em></label><input type="date" id="data" size="30"></p>
+            <p>Вы любите десерты?</p>
+            <p><input type="radio" name="like" id="like1" checked><label for="like1">Да</label></p>
+            <p><input type="radio" name="like" id="like2"><label for="like2">Нет</label></p>
+			<p><input type="radio" name="like" id="like3"><label for="like3">Смотря какие</label></p>
+            <p><label for="select">Какой приз вы бы выбрали?</label></p>
+            <p><select id="select">
+                <option selected>Торт</option>
+                <option>Печенья</option>
+                <option>Вафли</option>
+                <option>Кексы</option>
+                <option>Пироги</option>
+                <option>Взбитые сливки</option>
+                <option>Мороженое</option>
+                <option>Фруктовый салат</option>
+                <option>Мусс</option>
+                <option>Крем</option>
+                <option>Желе</option>
+                <option>Конфитюр</option>
+                <option>Пюре</option>
+            </select></p>
+			<p><label for="opinion">Как вы считаете, десерты могут ожить?</label></p>
+			<p><input type="password" id="opinion"></p>
+			<p>C кем бы вы поделились своим призом?</p>
+			<p>С самим родителем<input type="checkbox" name="close" id="close1"><label for="close1">С самим собой</label></p>
+			<p><input type="checkbox" name="close" id="close2"><label for="close2">С родителями</label></p>
+			<p><input type="checkbox" name="close" id="close3"><label for="close3">С друзьями</label></p>
+			<p><input type="checkbox" name="close" id="close4"><label for="close4">С одногруппниками</label></p>
+            <p><label for="colors">Ваш любимый цвет</label></p>
+			<p><input type="color" id="colors" value="#42aaff"></p>
+            <p><label for="max_kolvo">Максимальное количество конфет, которое вы съедали за раз</label></p>
+			<p>0<input type="range" id="max_kolvo" min="0" max="30" step="1" value="10">30</p>
+			<p>Ваши адрес электронной почты и номер телефона</p>
+		    <p><input type="email" id="data1" required pattern="(^[\w]+@[a-z]+\.[a-z]+$)" placeholder="some@email.com">
+			<input type="tel" id="data2" placeholder="(555) 555-5555"></p>
+			<p><label for="photo">Прикрепите фотографию вашего любимого десерта</label></p>
+			<p><input type="file" id="photo">
+			<input type="image" name="i1" alt="Я сладкоежка" src="Кнопка1.png">
+			<input type="image" name="i2" alt="Нелюбитель" src="Кнопка2.png">
+			<input type="submit" name="send">
+			<input type="reset" name="clean"></p>
+		</fieldset>
+    </form>
+</main>
+<footer>
+    По поводу предложений с нами можно связаться
+    <address><a href="mailto:leskinanasty@gmail.com">desert@tasty.com</a></address>
+    <small>Copyright © <time datetime="2022">2022</time></small>
+</footer>
+</body>
+</html>

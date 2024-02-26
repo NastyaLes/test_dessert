@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Применение блочной верстки</title>
+    <link rel="stylesheet" href="1.css" media="all">
+</head>
+<body>
+<header>
+    <h1 align="center">Десерты</h1>
+</header>
+<main>
+    <nav>
+        <h2>В качестве десертов могут подаваться</h2>
+        <ul type="circle">
+            <li>кондитерские изделия:
+                <ol type="1">
+                    <li><a href="#1">торты</a></li>
+                    <li><a href="#2">печенья</a></li>
+                    <li><a href="#3">вафли</a></li>
+                    <li><a href="#4">кексы</a></li>
+                    <li><a href="#5">пироги</a></li>
+                </ol>
+            </li>
+            <li>конфеты и блюда из <a href="#6">взбитых сливок</a></li>
+            <li>мороженое и <a href="#7">десерты из мороженого</a></li>
+            <li><a href="#8">фруктовые салаты</a></li>
+            <li><a href="#9">муссы</a></li>
+            <li><a href="#10">кремы</a></li>
+            <li><a href="#11">желе</a></li>
+            <li><a href="#12">конфитюр</a></li>
+            <li><a href="#13">пюре</a></li>
+        </ul>
+    </nav>
+	    <figure>
+        <img src="Десерт.jpg" alt="Десерт" style="width:512px;height:342px;" align="right" vspace="5">
+    </figure>
+</main>
+<footer>
+    По поводу предложений с нами можно связаться
+    <address><a href="mailto:leskinanasty@gmail.com">desert@tasty.com</a></address>
+    <small>Copyright © <time datetime="2022">2022</time></small>
+</footer>
+</body>
+</html>
